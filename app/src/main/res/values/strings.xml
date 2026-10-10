@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Автокликер</string>
+
+    <string name="accessibility_label">Служба автокликера</string>
+    <string name="accessibility_summary">Нужна, чтобы приложение само отправляло касания по экрану.</string>
+    <string name="accessibility_description">Отправляет касания в указанную точку и повторяет записанные движения. Требуется только для работы автокликера — данные никуда не отправляются.</string>
+
+    <string name="no_service">Служба выключена — включи в настройках</string>
+    <string name="no_overlay">Нет разрешения на оверлей — кнопка не появится</string>
+    <string name="service_on">Служба включена</string>
+
+    <string name="btn_start">СТАРТ</string>
+    <string name="btn_stop">СТОП</string>
+    <string name="btn_pick_point">ЗАПИСАТЬ КООРДИНАТУ</string>
+    <string name="btn_record_screen">ЗАПИСАТЬ ЭКРАН</string>
+    <string name="btn_recording">ИДЁТ ЗАПИСЬ — ОСТАНОВИТЬ</string>
+    <string name="btn_clear">Очистить запись</string>
+
+    <string name="point_format">Точка: %1$d, %2$d</string>
+    <string name="point_not_set">Точка не задана</string>
+    <string name="pick_hint">Коснись точки на экране — она запишется</string>
+
+    <string name="speed_format">Скорость: %1$.1f×</string>
+    <string name="iterations_infinite">Итерации: без ограничения</string>
+    <string name="iterations_format">Итераций: %1$d</string>
+
+    <string name="macro_empty">Записано нажатий: 0</string>
+    <string name="macro_format">Записано нажатий: %1$d</string>
+    <string name="counter_idle">Простоев: %1$d · повторов: %2$d</string>
+
+    <string name="status_idle">Готов</string>
+    <string name="status_recording">Идёт запись экрана</string>
+    <string name="status_running">Идёт выполнение</string>
+    <string name="status_macro_ready">Записано — можно СТАРТ</string>
+
+    <string name="keepalive_channel">Служба автокликера</string>
+    <string name="keepalive_title">Автокликер работает</string>
+    <string name="keepalive_text">Нажми, чтобы открыть настройки</string>
+    <string name="notif_stop">Остановить</string>
+</resources>
